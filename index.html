@@ -15,24 +15,24 @@
     /* 
     PROBLEM 2: Write a script that will console log one of the widths of the global window object
     */
-    console.log(window.screen.width);
+    console.log(window.innerWidth);
 
     /* 
    PROBLEM 3: Write a script that logs a boolean to check if the current window is the top-level window.
    */
-    //ENTER YOUR CODE HERE
+    console.log(Boolean(window.parent));
 
     /* 
     PROBLEM 4: Write a script that retrieves the URL of the current window and logs it to the console.
     */
-    //ENTER YOUR CODE HERE
+    console.log(window.location.href);
 
     /* 
     PROBLEM 5 (DEBUGGING): The following code is intended to log the window's innerHeight and innerWidth properties. However, it is not producing the expected output. 
     // Find and fix the bug to make it work correctly.
     */
-    // console.log("Problem 5 Window Height: " + window.height);
-    // console.log("Problem 5 Window Width: ", window.width);
+    console.log(`Problem 5 Window Height: ${window.innerHeight}`);
+    console.log(`Problem 5 Window Width: ${window.innerWidth}`);
 
   </script>
   <section
